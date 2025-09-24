@@ -13,5 +13,19 @@ Praticar a lógica e consolidar a base da programação em C.
 
 ## Como executar
 ```bash
-gcc main.c -o programa
-./programa
+## 📄 main.c
+```c
+#include <stdio.h>
+
+int main() {
+    int numero;
+    printf("Digite um número: ");
+    scanf("%d", &numero);
+
+    if (numero % 2 == 0)
+        printf("Número par!\n");
+    else
+        printf("Número ímpar!\n");
+
+    return 0;
+}
