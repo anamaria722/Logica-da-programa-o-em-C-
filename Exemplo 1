@@ -12,3 +12,37 @@ int main() {
 
     return 0;
 }
+## 2. 📂 `vetores-e-matrizes-em-c`
+
+```markdown
+# Vetores e Matrizes em C
+
+Este repositório reúne exercícios com **vetores e matrizes**, aplicados em situações reais.
+
+## Conteúdo
+- Cálculo de médias
+- Busca do maior e menor valor
+- Representações gráficas simples com ASCII
+- Exercícios com tabelas de dados
+
+## Objetivo
+Aprender a manipular grandes volumes de dados estruturados.
+
+## Como executar
+```bash
+gcc arquivo.c -o programa
+./programa
+Exemplo
+c
+Copiar código
+#include <stdio.h>
+
+int main() {
+    float temp[5] = {23.5, 25.0, 22.0, 26.7, 24.3};
+    float soma = 0;
+    for (int i = 0; i < 5; i++) {
+        soma += temp[i];
+    }
+    printf("Média: %.2f\n", soma / 5);
+    return 0;
+}
